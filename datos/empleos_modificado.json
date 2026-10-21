@@ -1,0 +1,14 @@
+[
+  {
+    "jobId": "demo-01",
+    "jobTitle": "Python Developer (revisado)",
+    "companyName": "Ejemplo A",
+    "location": "Bogotá"
+  },
+  {
+    "jobId": "demo-02",
+    "jobTitle": "Data Analyst",
+    "companyName": "Ejemplo B",
+    "location": "Medellín"
+  }
+]

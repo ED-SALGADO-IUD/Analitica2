@@ -1,0 +1,26 @@
+AE2 - MANEJO DE ARCHIVOS CSV Y JSON
+
+ORIGEN CSV
+https://huggingface.co/datasets/a4n9i/iris-tabular/resolve/main/iris.csv
+Archivo importado: datos\iris_original.csv
+Archivo guardado: datos\iris_modificado.csv
+Registros procesados: 5
+Clase: ManejadorCSV
+Métodos: importar, modificar, guardar
+Modificaciones:
+  - Registro 1: Species, 'setosa' -> 'setosa-revisada'
+
+ORIGEN JSON
+https://huggingface.co/datasets/logiover/naukri-job-scraper-sample-data/resolve/main/sample.json
+Archivo importado: datos\empleos_original.json
+Archivo guardado: datos\empleos_modificado.json
+Registros procesados: 2
+Clase: ManejadorJSON
+Métodos: importar, modificar, guardar
+Modificaciones:
+  - Registro 1: jobTitle, 'Python Developer' -> 'Python Developer (revisado)'
+
+GENERACIÓN TXT
+Clase: GeneradorResumenTXT
+Método: generar
+Salida: datos\resumen.txt
